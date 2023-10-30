@@ -71,7 +71,7 @@ p{
     background-color: hsl(212, 21%, 14%)
 }
 .Botonera:active{
-    color: hsl(212, 21%, 14%)
+    color: hsl(158, 36%, 37%);
 }
 .Carrito {
     display: flex;
@@ -82,7 +82,12 @@ p{
     margin-right: 10px;
 }
 
-
+.attribution{
+    padding: auto;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
