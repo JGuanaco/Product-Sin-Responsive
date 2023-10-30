@@ -64,6 +64,14 @@ p{
     justify-content: center;
     align-items: center;
     margin: 20px auto;
+    cursor: pointer;
+}
+.Botoner:hover{
+    cursor: pointer;
+    background-color: hsl(212, 21%, 14%)
+}
+.Botonera:active{
+    color: hsl(212, 21%, 14%)
 }
 .Carrito {
     display: flex;
