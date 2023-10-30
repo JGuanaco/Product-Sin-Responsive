@@ -1,0 +1,117 @@
+/*Styling Body*/
+body{
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+p{
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+}
+/*Clases, ID's */
+.container{
+    display: flex;
+    width: 800px;
+}
+.img{
+    width: 50%;
+    height: 450px;
+    background-image: url(../images/image-product-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px 0 0 15px;
+}
+.Contenido{
+    background-color: hsl(0, 0%, 100%);
+    width: 50%;
+    padding: 20px;
+    border-radius: 0 15px 15px 0px;
+    
+}
+.Fuente-Frances{
+    font-family: 'Fraunces', serif;
+}
+.Fuente-Montserrat{
+    font-family: 'Montserrat', sans-serif;
+}
+.Color{
+   color: hsl(228, 12%, 48%);
+}
+.Price{
+    font-weight: bold;
+    color: hsl(158, 36%, 37%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Tachado{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+}
+.Botonera{
+    font-weight: bold;
+    width: 260px;
+    height: 60px;
+    border-radius: 5px;
+    color: white;
+    background-color: hsl(158, 36%, 37%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+.Carrito {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.icon-cart{
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+.attribution { 
+    font-size: 15px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
